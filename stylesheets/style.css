@@ -1,7 +1,7 @@
 body {
-  padding: 0;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   margin: 0;
+  padding: 0;
+  background-color: #131310;
 }
 
 a {
@@ -9,20 +9,35 @@ a {
 }
 
 h1 {
-  color: #fff302;
-  font-family: impact;
+  color: #ffdc01;
+  font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
   font-size: 5vmin;
-  display: inline-block;
-  margin: 0 5px 0 5px;
+  font-size: 48px;
+  display: block;
+  text-align: center;
+  margin: 0px;
+  padding: 36px;
+}
+
+div.heading {
+  margin: 0;
+  background: #383629;
+  border-bottom: 1px solid #ffdc01;
+}
+
+img.logo {
+  float: left;
+  margin: 0px;
+  padding: 8px;
 }
 
 button.toapp {
   font-weight: bolder;
-  color: white;
+ /* color: white;
   border: 3px groove #0087FF;
-  background-color: #0080ff;
+  background-color: #0080ff;*/
   font-size: 3vmin;
-  float: right;
+  /*float: right;*/
   margin: 3px;
 }
 
@@ -33,17 +48,17 @@ button:hover {
   cursor: pointer;
 }
 
-div.heading {
-  margin: 0;
-  background: black;
-}
-
 div.content {
   width: 80%;
+  max-width: 1120px;
   margin: auto;
+  padding: 36px;
   font-size: 2vmin;
+  font: 24px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #fffefe;
 }
 
-img.logo {
-  display: inline-block;
+hr {
+  color: #ffdc01;
 }
+
