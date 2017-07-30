@@ -8,27 +8,44 @@ a {
   color: #00B7FF;
 }
 
-h1 {
-  color: #ffdc01;
-  font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
-  font-size: 5vmin;
-  font-size: 48px;
-  display: block;
-  text-align: center;
+div.heading {
   margin: 0px;
-  padding: 36px;
+  padding: 6px 18px;
+  border-bottom: 1px solid black;
+  background: #ffdc01;
 }
 
-div.heading {
-  margin: 0;
-  background: #383629;
-  border-bottom: 1px solid #ffdc01;
+div.heading p {
+  margin: 0px;
+  font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 5vmin;
+  font-size: 18px;
+  font-weight: 160%;
+  color: black;
+}
+
+div.heading p a {
+  color: #383629;
+  text-decoration: none;
+}
+div.heading p a:hover {
+  color: #c6aa00;
+  text-decoration: none;
+}
+
+h1 {
+  /* text-align: center; */
+}
+
+p.tagline {
+  margin-top: 0px;
+  font-size: 18px;
+  font-style: italic;
 }
 
 img.logo {
-  float: left;
   margin: 0px;
-  padding: 8px;
+  padding: 0px 8px;
 }
 
 button.toapp {
